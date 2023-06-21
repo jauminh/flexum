@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flexum</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css" />
+    <style>
+        body {
+            background-color: #000;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            font-family: 'Montserrat', sans-serif;
+        }
+
+        .titulo1 {
+            color: white;
+            font-size: 40px;
+            font-weight: bold;
+            text-align: center;
+        }
+
+        .titulo1 span {
+            color: orangered;
+        }
+		.frase1 span {
+            color: orangered;
+        }
+
+        .frase1 {
+            font-size: 24px;
+            color: white;
+            font-weight: bold;
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .botoes-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            margin-top: 20px;
+        }
+
+        .botao-contornado {
+            margin-top: 10px;
+            padding: 12px 24px;
+            border: none;
+            border-radius: 4px;
+            background-color: rgba(144, 164, 174, 0.8); /* Azul pastel escurecido */
+            color: #fff;
+            text-decoration: none;
+            cursor: pointer;
+            width: 200px;
+            text-align: center;
+            font-size: 18px;
+        }
+
+        #botao-contornadoins {
+            background-color: rgba(240,128,128, 0.8); /* Rosa pastel escurecido */
+        }
+
+        #botao-contornadowha {
+            background-color: rgba(50,205,50, 0.8); /* Verde pastel escurecido */
+        }
+
+        .botao-contornado:hover {
+            background-color: rgba(144, 164, 174, 1); /* Azul pastel escuro */
+        }
+
+        .botaocor {
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <div class="titulo1">FLE<span>X</span>UM</div>
+    <div class="frase1">Desafie-se e transforme seu corpo na FLE<span>X</span>UM, a academia que irá impulsionar seu potencial máximo.</div>
+    <div class="botoes-container">
+        <a href="https://www.instagram.com/one_.fit/" id="botao-contornadoins" class="botao-contornado">INSTAGRAM</a>
+        <a href="https://api.whatsapp.com/send?phone=5586998492731" id="botao-contornadowha" class="botao-contornado">WHATSAPP</a>
+        <a href="tel:+5586998492731" class="botao-contornado">TELEFONE</a>
+        <a href="https://www.google.com.br/maps/place/ONEFIT/@-3.932999,-41.7106285,21z/data=!4m6!3m5!1s0x7933ba3b81ab515:0x8ef910279ad415b5!8m2!3d-3.9331088!4d-41.7106106!16s%2Fg%2F11q83t9sqx?entry=ttu" class="botao-contornado">ENDEREÇO</a>
+        <a href="treino.html" class="botao-contornado">TREINOS</a>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+</body>
+</html>
